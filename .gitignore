@@ -1,5 +1,7 @@
 node_modules
 
+sudo certbot --nginx -d metatdat.loveblazersmobile.com -d www.metatdat.loveblazersmobile.com
+
 
 server{
 
