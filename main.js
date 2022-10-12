@@ -5,7 +5,7 @@ router.use("/:name", (req, res) => {
     const { name } = req.params;
     return res.json({
         "name": `${name}.xyz`,
-        "image": `https://metadata.loveblazersmobile.com/image/${name}`,
+        "image": `https://xyznameservice.xyz/image/${name}`,
         "description": `${name}.xyz, an ether name.`,
         "attributes": [
             {
@@ -16,10 +16,10 @@ router.use("/:name", (req, res) => {
         ],
         "name_length": 0,
         "segment_length": 0,
-        "url": `https://metadata.loveblazersmobile.com/${name}.xyz`,
+        "url": `https://xyznameservice.xyz/${name}.xyz`,
         "version": 0,
-        "background_image": `https://metadata.loveblazersmobile.com/image/${name}`,
-        "image_url": `https://metadata.loveblazersmobile.com/image/${name}`
+        "background_image": `https://xyznameservice.xyz/image/${name}`,
+        "image_url": `https://xyznameservice.xyz/image/${name}`
     });
 })
 
